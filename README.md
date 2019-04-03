@@ -23,6 +23,13 @@ For running 1st functionality ie IP address, mapper2.py and reducer2.py is used.
 
 For running 1st functionality ie IP address, mapper4.py and reducer2.py is used. reducer1.py is used as a base reducer to which the input(from input gui) is appended and stored in reducer2.py. run_web.sh is the shell command to automatically run the 1st functionality. web_in is the input gui, web_out is the output gui. 
 
+web_log_analyser.py is the gui which combines all three and can run any of them from there. It stays open untill pressed exit button.
+
 Must read:
 If sh file is denied permission, try chmod 777 filename.sh in the terminal to give permission.
 Running sh file : ./filename.sh
+Change filenames, directory names carefully.
+
+*OS : Kali Linux
+Hadoop : 2.7.2
+*
