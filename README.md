@@ -19,9 +19,9 @@ Place the Dataset.txt into the 'in' folder of HDFS. The programs are written in 
 
 For running 1st functionality ie IP address, mapper.py and reducer2.py is used. reducer1.py is used as a base reducer to which the input(from input gui) is appended and stored in reducer2.py. run_ip.sh is the shell command to automatically run the 1st functionality. ip_in is the input gui, ip_out is the output gui. 
 
-For running 2nd functionality ie IP address, mapper1.py and reducer2.py is used. reducer1.py is used as a base reducer to which the input(from input gui) is appended and stored in reducer2.py. run_time.sh is the shell command to automatically run the 1st functionality. time_in is the input gui, ip_out is the output gui.* Not properly shown ouput. Ex: Ouput is shown as [('21':4672)] For 4672 hits in between 21:00 to 22:00*
+For running 2nd functionality ie Peak hours, mapper1.py and reducer2.py is used. reducer1.py is used as a base reducer to which the input(from input gui) is appended and stored in reducer2.py. run_time.sh is the shell command to automatically run the 1st functionality. time_in is the input gui, ip_out is the output gui.* Not properly shown ouput. Ex: Ouput is shown as [('21':4672)] For 4672 hits in between 21:00 to 22:00*
 
-For running 3rd functionality ie IP address, mapper4.py and reducer2.py is used. reducer1.py is used as a base reducer to which the input(from input gui) is appended and stored in reducer2.py. run_web.sh is the shell command to automatically run the 1st functionality. web_in is the input gui, web_out is the output gui. 
+For running 3rd functionality ie Websites, mapper4.py and reducer2.py is used. reducer1.py is used as a base reducer to which the input(from input gui) is appended and stored in reducer2.py. run_web.sh is the shell command to automatically run the 1st functionality. web_in is the input gui, web_out is the output gui. 
 
 web_log_analyser.py is the gui which combines all three and can run any of them from there. It stays open untill pressed exit button.
 
